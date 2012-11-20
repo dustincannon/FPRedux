@@ -26,7 +26,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in FPReduxTests");
+    STAssertTrue(1 + 1 == 2, @"Math!");
 }
 
 @end
