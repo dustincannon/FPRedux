@@ -2,3 +2,7 @@
 xcuserdata
 Documentation/appledoc/
 Documentation/doxygen/
+Pods
+Podfile.lock
+*.swp
+FPRedux.xcodeproj/project.xcworkspace
