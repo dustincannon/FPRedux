@@ -10,7 +10,7 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>5C6D11D66F5345059102A79A</key>
+		<key>0404080544CB43B69B5034BB</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>archive.ar</string>
@@ -19,7 +19,42 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>libPods-FPReduxTests.a</string>
+			<string>libPods.a</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>1C3C448F32E3420FB64BFE78</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Pods-resources.sh"
+</string>
+		</dict>
+		<key>5C6D11D66F5345059102A79A</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
 			<key>path</key>
 			<string>libPods-FPReduxTests.a</string>
 			<key>sourceTree</key>
@@ -32,6 +67,13 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>79B4CFE0A41340389773534D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0404080544CB43B69B5034BB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>8A65D454165C4A8900B86BB5</key>
 		<dict>
 			<key>children</key>
@@ -41,6 +83,7 @@
 				<string>8A65D462165C4A8900B86BB5</string>
 				<string>8A65D460165C4A8900B86BB5</string>
 				<string>92B5492133134B05A392E349</string>
+				<string>908976DCF393416E9F589696</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -121,6 +164,7 @@
 				<string>8A65D464165C4A8900B86BB5</string>
 				<string>8A65D466165C4A8900B86BB5</string>
 				<string>8A65D468165C4A8900B86BB5</string>
+				<string>79B4CFE0A41340389773534D</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
@@ -152,6 +196,7 @@
 				<string>8A65D45B165C4A8900B86BB5</string>
 				<string>8A65D45C165C4A8900B86BB5</string>
 				<string>8A65D45D165C4A8900B86BB5</string>
+				<string>1C3C448F32E3420FB64BFE78</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
@@ -206,6 +251,7 @@
 				<string>8A65D467165C4A8900B86BB5</string>
 				<string>8A65D481165C4A8900B86BB5</string>
 				<string>5C6D11D66F5345059102A79A</string>
+				<string>0404080544CB43B69B5034BB</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -260,6 +306,8 @@
 		</dict>
 		<key>8A65D467165C4A8900B86BB5</key>
 		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -475,6 +523,7 @@
 			<key>files</key>
 			<array>
 				<string>8A65D48F165C4A8A00B86BB5</string>
+				<string>8A65D4A4165D223100B86BB5</string>
 			</array>
 			<key>isa</key>
 			<string>PBXSourcesBuildPhase</string>
@@ -640,6 +689,7 @@
 				<string>8A65D48D165C4A8A00B86BB5</string>
 				<string>8A65D48E165C4A8A00B86BB5</string>
 				<string>8A65D488165C4A8900B86BB5</string>
+				<string>8A65D4A3165D223100B86BB5</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -841,11 +891,15 @@
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
 		<key>8A65D493165C4A8A00B86BB5</key>
 		<dict>
+			<key>baseConfigurationReference</key>
+			<string>908976DCF393416E9F589696</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
@@ -866,6 +920,8 @@
 		</dict>
 		<key>8A65D494165C4A8A00B86BB5</key>
 		<dict>
+			<key>baseConfigurationReference</key>
+			<string>908976DCF393416E9F589696</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
@@ -893,6 +949,8 @@
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
@@ -958,6 +1016,26 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
+		<key>8A65D4A3165D223100B86BB5</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SpecTest.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8A65D4A4165D223100B86BB5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8A65D4A3165D223100B86BB5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>8FD1B79F6E2048A9B03A8424</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -979,6 +1057,21 @@
 			<key>shellScript</key>
 			<string>"${SRCROOT}/Pods/Pods-FPReduxTests-resources.sh"
 </string>
+		</dict>
+		<key>908976DCF393416E9F589696</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Pods.xcconfig</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
 		</dict>
 		<key>92B5492133134B05A392E349</key>
 		<dict>

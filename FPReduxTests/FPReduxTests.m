@@ -10,6 +10,7 @@
 
 @implementation FPReduxTests
 
+/*
 - (void)setUp
 {
     [super setUp];
@@ -28,5 +29,6 @@
 {
     STAssertTrue(1 + 1 == 2, @"Math!");
 }
+*/
 
 @end
